@@ -33,7 +33,7 @@ class TableViewController: UIViewController {
     }
 
     func fetchUsers(){
-        var request = URLRequest(url: URL(string: "https://randomuser.me/api/?results=10&seed=imtiyaz")!)
+        var request = URLRequest(url: URL(string: "https://randomuser.me/api/?results=50&seed=imtiyaz")!)
         
         request.httpMethod = "GET"
         
@@ -66,7 +66,7 @@ class TableViewController: UIViewController {
 extension TableViewController:UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         print("Checking for count")
-        return 10//ContactArray?.count ?? 0
+        return 50//ContactArray?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -77,7 +77,6 @@ extension TableViewController:UITableViewDataSource {
             }
             print("no error here")
             if let user = ContactArray?[indexPath.row] {
-                print("INNNNN error here")
                 let FullName = formatName(contactname: user.name)
                 cell.labelName.text = FullName
                 cell.labelEmail.text=user.email

@@ -313,6 +313,8 @@
 		21F3D55522DD0C8400A4DEF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ContactList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -329,6 +331,8 @@
 		21F3D55622DD0C8400A4DEF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ContactList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

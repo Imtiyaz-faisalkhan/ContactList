@@ -50,12 +50,12 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKJ-Bl-qPf">
-                                        <rect key="frame" x="20" y="491" width="374" height="24"/>
+                                        <rect key="frame" x="20" y="491" width="374" height="26.5"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Faisal-Khan.Imtiyaz@epita.fr">
                                                 <attributes>
                                                     <color key="NSColor" red="1" green="0.55066954869999996" blue="0.3833543941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" size="20" name="Optima-Bold"/>
+                                                    <font key="NSFont" size="22" name="Optima-Bold"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
